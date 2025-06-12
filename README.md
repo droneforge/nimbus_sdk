@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <strong>Unlock full autonomy on your ELRS drone with onboard vision and programmable flight intelligence.</strong>
+  <strong>Unlock full autonomy on your ELRS drone with real-time computer vision and programmable flight intelligence.</strong>
 </p>
 
 ---
