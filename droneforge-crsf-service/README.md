@@ -49,11 +49,18 @@ git clone https://github.com/your-org/droneforge-crsf-service.git
 cd droneforge-crsf-service
 ```
 
-### Linux/macOS
+### Linux
 ```bash
 mkdir build && cd build
 cmake ..
 make -j$(nproc)
+```
+
+### macOS
+```bash
+mkdir build && cd build
+cmake ..
+make -j$(sysctl -n hw.ncpu)
 ```
 
 ### Windows (Visual Studio)

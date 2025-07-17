@@ -157,6 +157,10 @@ struct DeviceMetadata {
     constexpr bool operator==(const DeviceMetadata& other) const {
         return serialNo == other.serialNo && hardwareVersion == other.hardwareVersion && softwareVersion == other.softwareVersion && fieldCount == other.fieldCount && parameterVersion == other.parameterVersion;
     }
+    
+    constexpr bool operator!=(const DeviceMetadata& other) const {
+        return !(*this == other);
+    }
 };
 static_assert(sizeof(DeviceMetadata) == 14);
 #pragma pack(pop)
