@@ -175,9 +175,18 @@ This is your live control and monitoring view.
 Use these controls to connect Nimbus to your drone.
 - Bind: put your drone into bind mode by unplugging and plugging it back in three times. You should see three quick flashes. When you see the flashes turn into single flashes,Nimbus is connected, click Bind.
 - Scan: this cycles through the 5.8 GHz bands until it finds your drone's transmission.
+  
+<img width="752" height="190" alt="2026-01-04-164949_hyprshot" src="https://github.com/user-attachments/assets/2b2f2040-030f-451c-94d5-9aa606a48112" />
 
 ## Flight Tab
 Use this tab to review telemetry and past flights. You can download the logs and use them to train new models or debug behavior.
 
+<img width="1878" height="1339" alt="image" src="https://github.com/user-attachments/assets/33ed8bde-89e3-4c87-a7e1-253bf8545c1c" />
+
+
 ## Community Tab 
 This is where you share agents and browse what others have built. If you found something useful, you can download it and make it your own.
+
+<img width="1910" height="977" alt="2026-01-04-165122_hyprshot" src="https://github.com/user-attachments/assets/76ddd17f-5bb4-4eea-9f75-da96c7061207" />
+
+
