@@ -21,6 +21,8 @@ You will see a short set of action buttons in the build view. Here's their funct
 - Download: grab your agent file so you can share it or back it up.
 - Save: writes your latest changes. Make a habit of saving before you switch tabs.
 
+<img width="376" height="112" alt="2026-01-04-164821_hyprshot" src="https://github.com/user-attachments/assets/bd6cefa0-25dc-490f-be06-426230e2729b" />
+
 ## Expressions
 Expressions are the way you tell the agent what to do. Think of them like short, clear instructions that connect inputs (like sensors) to outputs (like controls). If you have used spreadsheets or basic scripting, this will feel familiar.
 
