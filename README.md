@@ -5,8 +5,14 @@ Firstly is the log-in screen. You can create an account in under a minute. We as
 
 If you already have an account, sign in and you will land in the main workspace.
 
+<img width="2489" height="1457" alt="login" src="https://github.com/user-attachments/assets/e0e32ecc-2cb9-411d-b314-3a9fefa51184" />
+
+
 ## Build Tab
 This is where you create agents. The left sidebar is your list of agents. The "+" button adds a new one. Click any agent in the sidebar to load it into the editor. If you want to fly a specific agent later, make sure it is selected here before you deploy.
+
+<img width="2489" height="1457" alt="agent" src="https://github.com/user-attachments/assets/bd67be2e-4a03-41a7-b541-ad67cdf0e48a" />
+
 
 ## Build Buttons
 You will see a short set of action buttons in the build view. Here's their functionality:
