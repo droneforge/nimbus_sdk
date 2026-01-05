@@ -166,8 +166,12 @@ endif()
 # Platform-specific libraries
 if(WIN32)
     target_link_libraries(droneforge-crsf-service PRIVATE setupapi)
-else()
+elseif(UNIX AND NOT APPLE)
+    # Linux - needs both pthread and rt libraries
     target_link_libraries(droneforge-crsf-service PRIVATE pthread rt)
+elseif(APPLE)
+    # macOS - only needs pthread (rt doesn't exist on macOS)
+    target_link_libraries(droneforge-crsf-service PRIVATE pthread)
 endif()
 
 # Compiler flags
